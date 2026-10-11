@@ -55,6 +55,12 @@ Se abre **LangGraph Studio** en el navegador, listo para chatear con el manager.
 
 [Ver el diagrama interactivo →](docs/arquitectura.html)
 
+> **Trazabilidad en LangGraph Studio.** Los subagentes se invocan dentro de las herramientas `biagent` y `financeagent`, así que LangGraph no puede descubrirlos de forma estática. En Studio solo verás el grafo del manager y la respuesta final de cada analista: no aparecen sus consultas SQL, sus pasos intermedios ni su estado, y `get_state(subgraphs=True)` no lo devuelve ([documentación](https://docs.langchain.com/oss/python/langchain/multi-agent/subagents#subagent-outputs)).
+>
+> Para verlo tienes dos opciones:
+> - **Pasar el estado al manager:** devuelve claves extra en el `Command` de la herramienta (por ejemplo, las consultas ejecutadas) además del `ToolMessage`.
+> - **Visualizarlo de forma custom:** invoca cada subagente desde una función de nodo en un grafo propio, en vez de desde una herramienta. Así Studio y `get_state(subgraphs=True)` sí muestran su estado.
+
 ## Preguntas sugeridas
 
 <details>
