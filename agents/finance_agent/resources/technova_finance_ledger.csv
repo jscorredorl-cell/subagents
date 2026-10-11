@@ -1,0 +1,11 @@
+ID_Transaccion,Fecha,Codigo_Cuenta,Nombre_Cuenta,Tipo_Movimiento,Departamento,Monto_USD,Descripcion
+TXN-9001,2026-10-01,4001,Ingresos por Ventas,Credito,Comercial,4800.00,Suma de ventas diarias (ORD-101 a 102)
+TXN-9002,2026-10-01,5001,Costo de Bienes Vendidos (COGS),Debito,Operaciones,3600.00,Costo de mercancia vendida diaria
+TXN-9003,2026-10-02,4001,Ingresos por Ventas,Credito,Comercial,6000.00,Suma de ventas diarias (ORD-103 a 104)
+TXN-9004,2026-10-02,5001,Costo de Bienes Vendidos (COGS),Debito,Operaciones,4600.00,Costo de mercancia vendida diaria
+TXN-9005,2026-10-03,4001,Ingresos por Ventas,Credito,Comercial,970.00,Suma de ventas diarias (ORD-105 a 106)
+TXN-9006,2026-10-03,5001,Costo de Bienes Vendidos (COGS),Debito,Operaciones,640.00,Costo de mercancia vendida diaria
+TXN-9007,2026-10-04,6001,Gasto de Marketing,Debito,Marketing,1500.00,Campana de Ads en Redes Sociales
+TXN-9008,2026-10-04,6002,Nomina Administrativa,Debito,RRHH,3200.00,Pago quincenal corporativo
+TXN-9009,2026-10-04,4001,Ingresos por Ventas,Credito,Comercial,1850.00,Suma de ventas diarias (ORD-107 a 108)
+TXN-9010,2026-10-04,5001,Costo de Bienes Vendidos (COGS),Debito,Operaciones,1300.00,Costo de mercancia vendida diaria

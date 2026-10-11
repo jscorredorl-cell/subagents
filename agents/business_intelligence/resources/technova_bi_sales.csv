@@ -1,0 +1,9 @@
+ID_Orden,Fecha,ID_Cliente,Categoria_Producto,Canal_Venta,Region,Cantidad,Precio_Unitario,Costo_Unitario,Total_Venta
+ORD-101,2026-10-01,C-501,Laptops,Online,Norte,2,1200.00,900.00,2400.00
+ORD-102,2026-10-01,C-502,Smartphones,Tienda Fisica,Sur,3,800.00,600.00,2400.00
+ORD-103,2026-10-02,C-503,Accesorios,Online,Norte,10,25.00,10.00,250.00
+ORD-104,2026-10-02,C-504,Laptops,Corporativo,Este,5,1150.00,900.00,5750.00
+ORD-105,2026-10-03,C-505,Smartphones,Online,Sur,1,850.00,600.00,850.00
+ORD-106,2026-10-03,C-506,Accesorios,Tienda Fisica,Norte,4,30.00,10.00,120.00
+ORD-107,2026-10-04,C-507,Monitores,Online,Este,2,300.00,200.00,600.00
+ORD-108,2026-10-04,C-501,Laptops,Tienda Fisica,Norte,1,1250.00,900.00,1250.00

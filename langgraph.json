@@ -1,0 +1,8 @@
+{
+    "dependencies": [
+        "."
+    ],
+    "graphs": {
+        "subagentes": "./manager.py:manager_agent"
+    }
+}
